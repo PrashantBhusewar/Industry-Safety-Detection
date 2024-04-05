@@ -79,10 +79,5 @@ class ModelTrainer:
 
             return model_trainer_artifact
 
-
-
-
-
-
         except Exception as e:
             raise isdException(e, sys)
